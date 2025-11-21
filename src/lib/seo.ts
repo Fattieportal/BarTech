@@ -17,7 +17,7 @@ export function generateMetadata({
   type = 'website',
   keywords = [],
 }: SEOProps): Metadata {
-  const baseUrl = 'https://bartech.nl'; // Update later naar je domein
+  const baseUrl = 'https://bar-technology.nl';
   const url = `${baseUrl}${path}`;
 
   const defaultKeywords = [
@@ -34,9 +34,9 @@ export function generateMetadata({
     title,
     description,
     keywords: [...defaultKeywords, ...keywords],
-    authors: [{ name: 'BarTech' }],
-    creator: 'BarTech',
-    publisher: 'BarTech',
+    authors: [{ name: 'Bar Technology' }],
+    creator: 'Bar Technology',
+    publisher: 'Bar Technology',
     
     // Open Graph
     openGraph: {
@@ -45,7 +45,7 @@ export function generateMetadata({
       url,
       title,
       description,
-      siteName: 'BarTech',
+      siteName: 'Bar Technology',
       images: [
         {
           url: `${baseUrl}${image}`,
@@ -62,7 +62,7 @@ export function generateMetadata({
       title,
       description,
       images: [`${baseUrl}${image}`],
-      creator: '@bartech', // Update naar je Twitter handle
+      creator: '@bartechnology',
     },
 
     // Canonical URL

@@ -24,11 +24,11 @@ export function generateICS(params: {
 
   const icsContent = `BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//BarTech//Booking System//NL
+PRODID:-//Bar Technology//Booking System//NL
 CALSCALE:GREGORIAN
 METHOD:REQUEST
 BEGIN:VEVENT
-UID:${Date.now()}@bartech.nl
+UID:${Date.now()}@Bar Technology.nl
 DTSTAMP:${formatDate(new Date())}
 DTSTART:${formatDate(params.startDateTime)}
 DTEND:${formatDate(params.endDateTime)}

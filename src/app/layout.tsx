@@ -12,10 +12,10 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://bartech.nl'), // Update later naar je domein
+  metadataBase: new URL('https://bar-technology.nl'),
   title: {
     default: "Full-Stack Software Engineer | Custom WordPress & Web Development",
-    template: "%s | BarTech",
+    template: "%s | Bar Technology",
   },
   description: "Full-stack software engineer specializing in custom WordPress plugins, API integrations, automation systems, and scalable web applications. Based in the Netherlands.",
   keywords: [
@@ -29,23 +29,23 @@ export const metadata: Metadata = {
     'Next.js development',
     'React developer',
   ],
-  authors: [{ name: 'BarTech' }],
-  creator: 'BarTech',
-  publisher: 'BarTech',
+  authors: [{ name: 'Bar Technology' }],
+  creator: 'Bar Technology',
+  publisher: 'Bar Technology',
   
   openGraph: {
     type: 'website',
     locale: 'nl_NL',
-    url: 'https://bartech.nl',
+    url: 'https://bar-technology.nl',
     title: 'Full-Stack Software Engineer | Custom WordPress & Web Development',
     description: 'Full-stack software engineer specializing in custom WordPress plugins, API integrations, automation systems, and scalable web applications.',
-    siteName: 'BarTech',
+    siteName: 'Bar Technology',
     images: [
       {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'BarTech - Full-Stack Software Engineer',
+        alt: 'Bar Technology - Full-Stack Software Engineer',
       },
     ],
   },
@@ -79,9 +79,9 @@ export default function RootLayout({
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    name: 'BarTech',
-    url: 'https://bartech.nl',
-    logo: 'https://bartech.nl/logo.png',
+    name: 'Bar Technology',
+    url: 'https://bar-technology.nl',
+    logo: 'https://bar-technology.nl/logo.png',
     description: 'Full-stack software engineering services specializing in WordPress, API integrations, and automation.',
     address: {
       '@type': 'PostalAddress',
@@ -103,9 +103,9 @@ export default function RootLayout({
   const personSchema = {
     '@context': 'https://schema.org',
     '@type': 'Person',
-    name: 'BarTech Developer',
+    name: 'Bar Technology Developer',
     jobTitle: 'Full-Stack Software Engineer',
-    url: 'https://bartech.nl',
+    url: 'https://bar-technology.nl',
     sameAs: [
       // 'https://linkedin.com/in/yourprofile',
       // 'https://github.com/yourprofile',
@@ -125,12 +125,12 @@ export default function RootLayout({
   const websiteSchema = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: 'BarTech',
-    url: 'https://bartech.nl',
+    name: 'Bar Technology',
+    url: 'https://bar-technology.nl',
     description: 'Professional full-stack software engineering services',
     potentialAction: {
       '@type': 'SearchAction',
-      target: 'https://bartech.nl/search?q={search_term_string}',
+      target: 'https://bar-technology.nl/search?q={search_term_string}',
       'query-input': 'required name=search_term_string',
     },
   };

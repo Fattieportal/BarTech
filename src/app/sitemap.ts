@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://bartech.nl'; // Update dit later naar je echte domein
+  const baseUrl = 'https://bar-technology.nl';
 
   return [
     {

@@ -13,7 +13,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="md:col-span-2">
             <div className="text-2xl font-bold text-white mb-4">
-              BarTech
+              Bar Technology
             </div>
             <p className="text-gray-400 max-w-md mb-4">
               {t.footer.description}
@@ -81,7 +81,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm mb-4 md:mb-0">
-            © {new Date().getFullYear()} BarTech. {t.footer.rights}
+            © {new Date().getFullYear()} Bar Technology. {t.footer.rights}
           </p>
           <div className="flex gap-6">
             <a 

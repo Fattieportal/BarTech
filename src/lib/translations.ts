@@ -131,7 +131,7 @@ export const translations = {
     },
     testimonials: {
       title: 'Wat klanten zeggen',
-      subtitle: 'Ontdek waarom bedrijven voor BarTech kiezen',
+      subtitle: 'Ontdek waarom bedrijven voor Bar Technology kiezen',
       testimonial1: {
         quote: 'Aimane heeft ons geholpen met een complexe API integratie die onze workflow volledig heeft geautomatiseerd. Van 2 dagen handmatig werk naar 10 minuten. Ongelooflijk!',
         author: 'Mark v.d.B.',
@@ -170,9 +170,9 @@ export const translations = {
       },
     },
     comparison: {
-      title: 'Waarom kiezen voor BarTech?',
+      title: 'Waarom kiezen voor Bar Technology?',
       subtitle: 'Vergelijk de opties en zie het verschil',
-      bartech: 'BarTech',
+      bartech: 'Bar Technology',
       freelancePlatform: 'Freelance Platforms',
       agency: 'Traditioneel Agency',
       criteria: {
@@ -423,7 +423,7 @@ export const translations = {
       info: {
         title: 'Andere manieren om contact op te nemen',
         email: 'E-mail',
-        emailValue: 'info@bartech.nl',
+        emailValue: 'info@bar-technology.nl',
         location: 'Locatie',
         locationValue: 'Nederland',
         availability: 'Beschikbaarheid',
@@ -565,7 +565,7 @@ export const translations = {
     },
     testimonials: {
       title: 'What Clients Say',
-      subtitle: 'Discover why businesses choose BarTech',
+      subtitle: 'Discover why businesses choose Bar Technology',
       testimonial1: {
         quote: 'Aimane helped us with a complex API integration that fully automated our workflow. From 2 days of manual work to 10 minutes. Incredible!',
         author: 'Mark v.d.B.',
@@ -604,9 +604,9 @@ export const translations = {
       },
     },
     comparison: {
-      title: 'Why Choose BarTech?',
+      title: 'Why Choose Bar Technology?',
       subtitle: 'Compare your options and see the difference',
-      bartech: 'BarTech',
+      bartech: 'Bar Technology',
       freelancePlatform: 'Freelance Platforms',
       agency: 'Traditional Agency',
       criteria: {
@@ -857,7 +857,7 @@ export const translations = {
       info: {
         title: 'Other Ways to Reach Me',
         email: 'Email',
-        emailValue: 'info@bartech.nl',
+        emailValue: 'info@bar-technology.nl',
         location: 'Location',
         locationValue: 'The Netherlands',
         availability: 'Availability',

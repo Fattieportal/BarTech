@@ -24,7 +24,7 @@ export function getFixedMeetLink(): string {
  */
 export function generateMeetCode(appointmentId: string | number): string {
   // Generate a readable meet code based on appointment ID
-  const code = `bartech-${appointmentId}`;
+  const code = `bar-technology-${appointmentId}`;
   return `https://meet.google.com/${code}`;
 }
 
@@ -39,7 +39,7 @@ export function getMeetLinkFromEventId(eventId?: string): string {
   
   // Create a unique code from event ID
   const shortCode = eventId.substring(0, 10);
-  return `https://meet.google.com/bartech-${shortCode}`;
+  return `https://meet.google.com/bar-technology-${shortCode}`;
 }
 
 /**

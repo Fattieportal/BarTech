@@ -27,7 +27,7 @@ export async function POST(request: NextRequest) {
       </div>
       <p>Heb je een dringende vraag? Stuur gerust een berichtje via WhatsApp: <a href="https://wa.me/31685498990">+31 6 85498990</a></p>
       <br>
-      <p>Met vriendelijke groet,<br><strong>BarTech</strong></p>
+      <p>Met vriendelijke groet,<br><strong>Bar Technology</strong></p>
     ` : `
       <h1>Thank you for your message!</h1>
       <p>Hello ${name},</p>
@@ -38,11 +38,11 @@ export async function POST(request: NextRequest) {
       </div>
       <p>Have an urgent question? Feel free to message us on WhatsApp: <a href="https://wa.me/31685498990">+31 6 85498990</a></p>
       <br>
-      <p>Best regards,<br><strong>BarTech</strong></p>
+      <p>Best regards,<br><strong>Bar Technology</strong></p>
     `;
 
-    // Send notification email to BarTech
-    const barTechEmailContent = `
+    // Send notification email to Bar Technology
+    const Bar TechnologyEmailContent = `
       <h1>📩 Nieuw contactformulier bericht</h1>
       <p>Er is een nieuw bericht binnengekomen via het contactformulier.</p>
       <div style="background-color: #f3f4f6; padding: 20px; border-radius: 8px; margin: 20px 0;">
@@ -66,19 +66,19 @@ export async function POST(request: NextRequest) {
       await Promise.all([
         // Client confirmation email
         resend.emails.send({
-          from: 'BarTech <onboarding@resend.dev>',
+          from: 'Bar Technology <onboarding@resend.dev>',
           to: [email],
           subject: language === 'nl' 
-            ? '✅ Bericht ontvangen - BarTech' 
-            : '✅ Message Received - BarTech',
+            ? '✅ Bericht ontvangen - Bar Technology' 
+            : '✅ Message Received - Bar Technology',
           html: clientEmailContent,
         }),
-        // Notification to BarTech
+        // Notification to Bar Technology
         resend.emails.send({
-          from: 'BarTech Contact <onboarding@resend.dev>',
+          from: 'Bar Technology Contact <onboarding@resend.dev>',
           to: ['abarjaj@gmail.com'],
           subject: `📩 Nieuw contactformulier: ${name}`,
-          html: barTechEmailContent,
+          html: Bar TechnologyEmailContent,
           replyTo: email, // Makes it easy to reply directly to the client
         }),
       ]);

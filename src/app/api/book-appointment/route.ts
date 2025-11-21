@@ -78,7 +78,7 @@ export async function POST(request: NextRequest) {
 📱 Telefoon: ${phone}
 💬 Bericht: ${message || 'Geen bericht'}
 
-Via BarTech website booking systeem
+Via Bar Technology website booking systeem
         `.trim(),
         startDateTime,
         endDateTime,
@@ -133,7 +133,7 @@ Via BarTech website booking systeem
       <p>We kijken ernaar uit om met je te praten!</p>
       <p>Heb je vragen? Stuur gerust een berichtje via WhatsApp: <a href="https://wa.me/31685498990">+31 6 85498990</a></p>
       <br>
-      <p>Met vriendelijke groet,<br><strong>BarTech</strong></p>
+      <p>Met vriendelijke groet,<br><strong>Bar Technology</strong></p>
     ` : `
       <h1>Thank you for your appointment!</h1>
       <p>Hello ${name},</p>
@@ -153,11 +153,11 @@ Via BarTech website booking systeem
       <p>We look forward to speaking with you!</p>
       <p>Have questions? Feel free to message us on WhatsApp: <a href="https://wa.me/31685498990">+31 6 85498990</a></p>
       <br>
-      <p>Best regards,<br><strong>BarTech</strong></p>
+      <p>Best regards,<br><strong>Bar Technology</strong></p>
     `;
 
-      // Update BarTech notification email with Google Meet link
-      const barTechEmailContentWithMeet = `
+      // Update Bar Technology notification email with Google Meet link
+      const Bar TechnologyEmailContentWithMeet = `
       <h1>🎉 Nieuwe afspraak ingepland!</h1>
       <p>Er is een nieuwe afspraak gemaakt via de website.</p>
       <div style="background-color: #eff6ff; padding: 20px; border-radius: 8px; margin: 20px 0; border-left: 4px solid #2563eb;">
@@ -182,16 +182,16 @@ Via BarTech website booking systeem
       // Generate .ics file for client with Meet link
       const icsContent = generateICS({
         summary: language === 'nl' 
-          ? `Technisch Adviesgesprek met BarTech`
-          : `Technical Consultation with BarTech`,
+          ? `Technisch Adviesgesprek met Bar Technology`
+          : `Technical Consultation with Bar Technology`,
         description: language === 'nl'
-          ? `Gratis 30-minuten technisch adviesgesprek met BarTech.\n\n📹 Google Meet: ${meetLink}\n\nVragen? Stuur een WhatsApp bericht naar +31 6 85498990`
-          : `Free 30-minute technical consultation with BarTech.\n\n📹 Google Meet: ${meetLink}\n\nQuestions? Send a WhatsApp message to +31 6 85498990`,
+          ? `Gratis 30-minuten technisch adviesgesprek met Bar Technology.\n\n📹 Google Meet: ${meetLink}\n\nVragen? Stuur een WhatsApp bericht naar +31 6 85498990`
+          : `Free 30-minute technical consultation with Bar Technology.\n\n📹 Google Meet: ${meetLink}\n\nQuestions? Send a WhatsApp message to +31 6 85498990`,
         startDateTime,
         endDateTime,
         location: meetLink,
         organizerEmail: 'abarjaj@gmail.com',
-        organizerName: 'BarTech - Aimane',
+        organizerName: 'Bar Technology - Aimane',
         attendeeEmail: email,
         attendeeName: name,
       });
@@ -221,11 +221,11 @@ Via BarTech website booking systeem
       await Promise.all([
         // Client confirmation email
         resend.emails.send({
-          from: 'BarTech <onboarding@resend.dev>',
+          from: 'Bar Technology <onboarding@resend.dev>',
           to: [email],
           subject: language === 'nl' 
-            ? '✅ Afspraak bevestiging - BarTech' 
-            : '✅ Appointment Confirmation - BarTech',
+            ? '✅ Afspraak bevestiging - Bar Technology' 
+            : '✅ Appointment Confirmation - Bar Technology',
           html: clientEmailContentWithMeet,
           attachments: [
             {
@@ -234,12 +234,12 @@ Via BarTech website booking systeem
             },
           ],
         }),
-        // Notification to BarTech
+        // Notification to Bar Technology
         resend.emails.send({
-          from: 'BarTech Bookings <onboarding@resend.dev>',
+          from: 'Bar Technology Bookings <onboarding@resend.dev>',
           to: ['abarjaj@gmail.com'],
           subject: `🎉 Nieuwe afspraak: ${name} op ${formattedDate} om ${time}`,
-          html: barTechEmailContentWithMeet,
+          html: Bar TechnologyEmailContentWithMeet,
           replyTo: email, // Makes it easy to reply directly to the client
         }),
       ]);
