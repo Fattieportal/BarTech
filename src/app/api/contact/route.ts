@@ -42,7 +42,7 @@ export async function POST(request: NextRequest) {
     `;
 
     // Send notification email to Bar Technology
-    const Bar TechnologyEmailContent = `
+    const barTechnologyEmailContent = `
       <h1>📩 Nieuw contactformulier bericht</h1>
       <p>Er is een nieuw bericht binnengekomen via het contactformulier.</p>
       <div style="background-color: #f3f4f6; padding: 20px; border-radius: 8px; margin: 20px 0;">
@@ -78,7 +78,7 @@ export async function POST(request: NextRequest) {
           from: 'Bar Technology Contact <onboarding@resend.dev>',
           to: ['abarjaj@gmail.com'],
           subject: `📩 Nieuw contactformulier: ${name}`,
-          html: Bar TechnologyEmailContent,
+          html: barTechnologyEmailContent,
           replyTo: email, // Makes it easy to reply directly to the client
         }),
       ]);

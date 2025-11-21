@@ -157,7 +157,7 @@ Via Bar Technology website booking systeem
     `;
 
       // Update Bar Technology notification email with Google Meet link
-      const Bar TechnologyEmailContentWithMeet = `
+      const barTechnologyEmailContentWithMeet = `
       <h1>🎉 Nieuwe afspraak ingepland!</h1>
       <p>Er is een nieuwe afspraak gemaakt via de website.</p>
       <div style="background-color: #eff6ff; padding: 20px; border-radius: 8px; margin: 20px 0; border-left: 4px solid #2563eb;">
@@ -239,7 +239,7 @@ Via Bar Technology website booking systeem
           from: 'Bar Technology Bookings <onboarding@resend.dev>',
           to: ['abarjaj@gmail.com'],
           subject: `🎉 Nieuwe afspraak: ${name} op ${formattedDate} om ${time}`,
-          html: Bar TechnologyEmailContentWithMeet,
+          html: barTechnologyEmailContentWithMeet,
           replyTo: email, // Makes it easy to reply directly to the client
         }),
       ]);
