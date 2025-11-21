@@ -221,7 +221,7 @@ Via Bar Technology website booking systeem
       await Promise.all([
         // Client confirmation email
         resend.emails.send({
-          from: 'Bar Technology <onboarding@resend.dev>',
+          from: 'Bar Technology <info@bar-technology.nl>',
           to: [email],
           subject: language === 'nl' 
             ? '✅ Afspraak bevestiging - Bar Technology' 
@@ -236,7 +236,7 @@ Via Bar Technology website booking systeem
         }),
         // Notification to Bar Technology
         resend.emails.send({
-          from: 'Bar Technology Bookings <onboarding@resend.dev>',
+          from: 'Bar Technology <info@bar-technology.nl>',
           to: ['abarjaj@gmail.com'],
           subject: `🎉 Nieuwe afspraak: ${name} op ${formattedDate} om ${time}`,
           html: barTechnologyEmailContentWithMeet,

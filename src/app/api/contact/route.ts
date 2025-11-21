@@ -66,7 +66,7 @@ export async function POST(request: NextRequest) {
       await Promise.all([
         // Client confirmation email
         resend.emails.send({
-          from: 'Bar Technology <onboarding@resend.dev>',
+          from: 'Bar Technology <info@bar-technology.nl>',
           to: [email],
           subject: language === 'nl' 
             ? '✅ Bericht ontvangen - Bar Technology' 
@@ -75,7 +75,7 @@ export async function POST(request: NextRequest) {
         }),
         // Notification to Bar Technology
         resend.emails.send({
-          from: 'Bar Technology Contact <onboarding@resend.dev>',
+          from: 'Bar Technology <info@bar-technology.nl>',
           to: ['abarjaj@gmail.com'],
           subject: `📩 Nieuw contactformulier: ${name}`,
           html: barTechnologyEmailContent,
