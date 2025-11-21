@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { useLanguage } from '@/lib/LanguageContext';
 
 export default function Solution() {
@@ -51,6 +52,15 @@ export default function Solution() {
                 {t.solution.service1.feat3}
               </li>
             </ul>
+            <Link 
+              href="/services" 
+              className="inline-flex items-center gap-2 mt-6 text-white hover:text-blue-200 font-semibold transition-colors"
+            >
+              Bekijk alle diensten
+              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </Link>
           </div>
 
           {/* Solution 2 */}
@@ -86,6 +96,15 @@ export default function Solution() {
                 {t.solution.service2.feat3}
               </li>
             </ul>
+            <Link 
+              href="/contact" 
+              className="inline-flex items-center gap-2 mt-6 text-white hover:text-blue-200 font-semibold transition-colors"
+            >
+              Start je project
+              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </Link>
           </div>
 
           {/* Solution 3 */}
@@ -121,6 +140,15 @@ export default function Solution() {
                 {t.solution.service3.feat3}
               </li>
             </ul>
+            <Link 
+              href="/services" 
+              className="inline-flex items-center gap-2 mt-6 text-white hover:text-blue-200 font-semibold transition-colors"
+            >
+              Bekijk alle diensten
+              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </Link>
           </div>
 
           {/* Solution 4 */}
@@ -156,6 +184,15 @@ export default function Solution() {
                 {t.solution.service4.feat3}
               </li>
             </ul>
+            <Link 
+              href="/about" 
+              className="inline-flex items-center gap-2 mt-6 text-white hover:text-blue-200 font-semibold transition-colors"
+            >
+              Lees meer over mij
+              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </Link>
           </div>
         </div>
       </div>

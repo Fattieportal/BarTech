@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { useLanguage } from '@/lib/LanguageContext';
 import CTA from '@/components/CTA';
+import Breadcrumbs from '@/components/Breadcrumbs';
 
 export default function Contact() {
   const { t, language } = useLanguage();
@@ -99,6 +100,9 @@ export default function Contact() {
 
   return (
     <main className="pt-20">
+      {/* Breadcrumbs */}
+      <Breadcrumbs />
+      
       {/* Hero */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-blue-50">
         <div className="max-w-4xl mx-auto text-center">

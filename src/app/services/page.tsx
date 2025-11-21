@@ -2,9 +2,65 @@
 
 import Link from 'next/link';
 import { useLanguage } from '@/lib/LanguageContext';
+import Breadcrumbs from '@/components/Breadcrumbs';
 
 export default function Services() {
   const { t } = useLanguage();
+
+  const serviceSchemas = [
+    {
+      '@context': 'https://schema.org',
+      '@type': 'Service',
+      name: 'Custom WordPress Ontwikkeling',
+      description: 'Professionele WordPress plugins, themes en WooCommerce oplossingen op maat',
+      provider: {
+        '@type': 'Person',
+        name: 'Aimane Elbarjaj',
+        url: 'https://bar-technology.nl'
+      },
+      areaServed: 'NL',
+      serviceType: 'WordPress Development'
+    },
+    {
+      '@context': 'https://schema.org',
+      '@type': 'Service',
+      name: 'API Integratie',
+      description: 'Naadloze koppelingen tussen verschillende systemen en platforms',
+      provider: {
+        '@type': 'Person',
+        name: 'Aimane Elbarjaj',
+        url: 'https://bar-technology.nl'
+      },
+      areaServed: 'NL',
+      serviceType: 'API Integration'
+    },
+    {
+      '@context': 'https://schema.org',
+      '@type': 'Service',
+      name: 'Process Automation',
+      description: 'Automatisering van bedrijfsprocessen voor meer efficiëntie',
+      provider: {
+        '@type': 'Person',
+        name: 'Aimane Elbarjaj',
+        url: 'https://bar-technology.nl'
+      },
+      areaServed: 'NL',
+      serviceType: 'Business Process Automation'
+    },
+    {
+      '@context': 'https://schema.org',
+      '@type': 'Service',
+      name: 'Full-Stack Web Applicaties',
+      description: 'Complete web applicaties gebouwd met moderne technologieën',
+      provider: {
+        '@type': 'Person',
+        name: 'Aimane Elbarjaj',
+        url: 'https://bar-technology.nl'
+      },
+      areaServed: 'NL',
+      serviceType: 'Web Application Development'
+    }
+  ];
 
   const services = [
     {
@@ -63,6 +119,18 @@ export default function Services() {
 
   return (
     <main className="pt-20">
+      {/* Schema Markup */}
+      {serviceSchemas.map((schema, index) => (
+        <script
+          key={index}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      ))}
+
+      {/* Breadcrumbs */}
+      <Breadcrumbs />
+      
       {/* Hero */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-blue-50">
         <div className="max-w-7xl mx-auto text-center">

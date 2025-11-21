@@ -3,12 +3,16 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { useLanguage } from '@/lib/LanguageContext';
+import Breadcrumbs from '@/components/Breadcrumbs';
 
 export default function About() {
   const { t } = useLanguage();
 
   return (
     <main className="pt-20">
+      {/* Breadcrumbs */}
+      <Breadcrumbs />
+      
       {/* Hero */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-blue-50">
         <div className="max-w-4xl mx-auto text-center">
