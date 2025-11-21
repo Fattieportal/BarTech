@@ -237,7 +237,7 @@ Via Bar Technology website booking systeem
         // Notification to Bar Technology
         resend.emails.send({
           from: 'Bar Technology <info@bar-technology.nl>',
-          to: ['abarjaj@gmail.com'],
+          to: ['info@bar-technology.nl'],
           subject: `🎉 Nieuwe afspraak: ${name} op ${formattedDate} om ${time}`,
           html: barTechnologyEmailContentWithMeet,
           replyTo: email, // Makes it easy to reply directly to the client

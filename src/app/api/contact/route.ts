@@ -76,7 +76,7 @@ export async function POST(request: NextRequest) {
         // Notification to Bar Technology
         resend.emails.send({
           from: 'Bar Technology <info@bar-technology.nl>',
-          to: ['abarjaj@gmail.com'],
+          to: ['info@bar-technology.nl'],
           subject: `📩 Nieuw contactformulier: ${name}`,
           html: barTechnologyEmailContent,
           replyTo: email, // Makes it easy to reply directly to the client
