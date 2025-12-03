@@ -127,7 +127,7 @@ export default function RootLayout({
     '@type': 'WebSite',
     name: 'Bar Technology',
     url: 'https://bar-technology.nl',
-    description: 'Pprofessional full-stack software engineering services',
+    description: 'Professional full-stack software engineering services',
     potentialAction: {
       '@type': 'SearchAction',
       target: 'https://bar-technology.nl/search?q={search_term_string}',
