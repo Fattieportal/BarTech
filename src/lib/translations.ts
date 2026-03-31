@@ -210,7 +210,7 @@ export const translations = {
       },
       intro: {
         title: 'Ik ben Aimane Elbarjaj, Full-Stack Software Engineer',
-        description: 'Als zelfstandig software engineer help ik bedrijven met custom software oplossingen die écht werken. Met een BSc in Information & Communication Technology en ruime ervaring in full-stack development lever ik maatwerk software die precies doet wat je nodig hebt—van WordPress plugins tot complete webapplicaties.',
+        description: 'Als software engineer help ik bedrijven met custom software oplossingen die écht werken. Met een BSc in Information & Communication Technology en ruime ervaring in full-stack development lever ik maatwerk software die precies doet wat je nodig hebt—van WordPress plugins tot complete webapplicaties.',
       },
       experience: {
         title: 'Mijn werkervaring',
@@ -644,7 +644,7 @@ export const translations = {
       },
       intro: {
         title: 'I\'m Aimane Elbarjaj, Full-Stack Software Engineer',
-        description: 'As an independent software engineer, I help businesses with custom software solutions that actually work. With a BSc in Information & Communication Technology and extensive experience in full-stack development, I deliver tailored software that does exactly what you need—from WordPress plugins to complete web applications.',
+        description: 'As a software engineer, I help businesses with custom software solutions that actually work. With a BSc in Information & Communication Technology and extensive experience in full-stack development, I deliver tailored software that does exactly what you need—from WordPress plugins to complete web applications.',
       },
       experience: {
         title: 'My Work Experience',
