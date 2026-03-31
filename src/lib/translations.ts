@@ -10,7 +10,7 @@ export const translations = {
     hero: {
       badge: 'Beschikbaar voor Projecten • Gevestigd in Nederland',
       headline: 'Enterprise-Grade Software Oplossingen',
-      subheadline: 'Van custom WordPress plugins tot full-stack applicaties—ik bouw software die meegroeit met jouw bedrijf.',
+      subheadline: 'Van custom WordPress plugins tot full-stack applicaties. Ik bouw software die meegroeit met jouw bedrijf.',
       wordpressWoocommerce: 'Custom WordPress & WooCommerce',
       apiIntegrations: 'API Integraties & Automatisering',
       fullstack: 'Full-Stack Web Applicaties',
@@ -35,7 +35,7 @@ export const translations = {
     },
     solution: {
       title: 'De oplossing',
-      subtitle: 'Custom-gebouwde software die écht werkt—geen compromissen, geen ballast',
+      subtitle: 'Custom-gebouwde software die écht werkt. Geen compromissen, geen ballast',
       service1: {
         title: 'Custom WordPress oplossingen',
         description: 'Ik bouw plugins en integraties op maat van jouw exacte eisen. Geen onnodige functies. Geen beveiligingsproblemen. Gewoon schone, efficiënte code die precies doet wat je nodig hebt.',
@@ -90,7 +90,7 @@ export const translations = {
       subtitle: 'Alles wat je moet weten over samenwerken met mij',
       q1: {
         q: 'Hoeveel kosten jouw diensten?',
-        a: 'Elk project is anders. Ik bied vaste prijsoffertes gebaseerd op jouw specifieke eisen. Na ons kennismakingsgesprek stuur ik je een gedetailleerd voorstel met transparante prijzen—geen verborgen kosten.',
+        a: 'Elk project is anders. Ik bied vaste prijsoffertes gebaseerd op jouw specifieke eisen. Na ons kennismakingsgesprek stuur ik je een gedetailleerd voorstel met transparante prijzen. Geen verborgen kosten.',
       },
       q2: {
         q: 'Hoe lang duurt een typisch project?',
@@ -118,7 +118,7 @@ export const translations = {
       },
       q8: {
         q: 'Hoe communiceren we tijdens het project?',
-        a: 'Ik ben flexibel en pas me aan jouw voorkeurswijze van communicatie aan. Email, Slack, videogesprekken, project management tools—wat voor jou werkt. Ik geef regelmatig updates en ben altijd responsief op vragen.',
+        a: 'Ik ben flexibel en pas me aan jouw voorkeurswijze van communicatie aan. Email, Slack, videogesprekken, project management tools: wat voor jou werkt. Ik geef regelmatig updates en ben altijd responsief op vragen.',
       },
     },
     cta: {
@@ -210,7 +210,7 @@ export const translations = {
       },
       intro: {
         title: 'Ik ben Aimane Elbarjaj, Full-Stack Software Engineer',
-        description: 'Als software engineer help ik bedrijven met custom software oplossingen die écht werken. Met een BSc in Information & Communication Technology en ruime ervaring in full-stack development lever ik maatwerk software die precies doet wat je nodig hebt—van WordPress plugins tot complete webapplicaties.',
+        description: 'Als software engineer help ik bedrijven met custom software oplossingen die écht werken. Met een BSc in Information & Communication Technology en ruime ervaring in full-stack development lever ik maatwerk software die precies doet wat je nodig hebt. Van WordPress plugins tot complete webapplicaties.',
       },
       experience: {
         title: 'Mijn werkervaring',
@@ -337,7 +337,7 @@ export const translations = {
       metaDescription: 'Custom WordPress plugins, API integraties, automatiseringssystemen en full-stack webapplicaties.',
       hero: {
         title: 'Mijn diensten',
-        subtitle: 'Van WordPress tot full-stack applicaties—ik bouw software die schaalt',
+        subtitle: 'Van WordPress tot full-stack applicaties. Ik bouw software die schaalt',
       },
       service1: {
         title: 'Custom WordPress & WooCommerce',
@@ -444,7 +444,7 @@ export const translations = {
     hero: {
       badge: 'Available for Projects • Based in the Netherlands',
       headline: 'Enterprise-Grade Software Solutions',
-      subheadline: 'From custom WordPress plugins to full-stack applications—I build software that scales with your business.',
+      subheadline: 'From custom WordPress plugins to full-stack applications. I build software that scales with your business.',
       wordpressWoocommerce: 'Custom WordPress & WooCommerce',
       apiIntegrations: 'API Integrations & Automation',
       fullstack: 'Full-Stack Web Applications',
@@ -469,7 +469,7 @@ export const translations = {
     },
     solution: {
       title: 'The Solution',
-      subtitle: 'Custom-built software that actually works—no compromises, no bloat',
+      subtitle: 'Custom-built software that actually works. No compromises, no bloat',
       service1: {
         title: 'Custom WordPress Solutions',
         description: 'I build plugins and integrations tailored to your exact requirements. No unnecessary features. No security vulnerabilities. Just clean, efficient code that does exactly what you need.',
@@ -524,7 +524,7 @@ export const translations = {
       subtitle: 'Everything you need to know about working with me',
       q1: {
         q: 'How much do your services cost?',
-        a: 'Every project is different. I offer fixed-price quotes based on your specific requirements. After our discovery call, I\'ll send you a detailed proposal with transparent pricing—no hidden fees.',
+        a: 'Every project is different. I offer fixed-price quotes based on your specific requirements. After our discovery call, I\'ll send you a detailed proposal with transparent pricing. No hidden fees.',
       },
       q2: {
         q: 'How long does a typical project take?',
@@ -552,7 +552,7 @@ export const translations = {
       },
       q8: {
         q: 'How do we communicate during the project?',
-        a: 'I\'m flexible and adapt to your preferred communication style. Email, Slack, video calls, project management tools—whatever works best for you. I provide regular updates and am always responsive to questions.',
+        a: 'I\'m flexible and adapt to your preferred communication style. Email, Slack, video calls, project management tools: whatever works best for you. I provide regular updates and am always responsive to questions.',
       },
     },
     cta: {
@@ -644,7 +644,7 @@ export const translations = {
       },
       intro: {
         title: 'I\'m Aimane Elbarjaj, Full-Stack Software Engineer',
-        description: 'As a software engineer, I help businesses with custom software solutions that actually work. With a BSc in Information & Communication Technology and extensive experience in full-stack development, I deliver tailored software that does exactly what you need—from WordPress plugins to complete web applications.',
+        description: 'As a software engineer, I help businesses with custom software solutions that actually work. With a BSc in Information & Communication Technology and extensive experience in full-stack development, I deliver tailored software that does exactly what you need. From WordPress plugins to complete web applications.',
       },
       experience: {
         title: 'My Work Experience',
@@ -771,7 +771,7 @@ export const translations = {
       metaDescription: 'Custom WordPress plugins, API integrations, automation systems, and full-stack web applications.',
       hero: {
         title: 'My Services',
-        subtitle: 'From WordPress to full-stack applications—I build software that scales',
+        subtitle: 'From WordPress to full-stack applications. I build software that scales',
       },
       service1: {
         title: 'Custom WordPress & WooCommerce',
