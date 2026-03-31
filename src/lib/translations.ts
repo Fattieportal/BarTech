@@ -202,23 +202,23 @@ export const translations = {
       rights: 'Alle rechten voorbehouden.',
     },
     about: {
-      metaTitle: 'Over mij | Aimane Elbarjaj - Tech Consultant',
-      metaDescription: 'Tech Consultant bij KPMG Nederland gespecialiseerd in digitale transformatie, full-stack development en moderne technologieën zoals Flutter, Docker en Azure.',
+      metaTitle: 'Over mij | Full-Stack Software Engineer | Bar Technology',
+      metaDescription: 'Full-stack software engineer gespecialiseerd in custom WordPress oplossingen, API integraties, automatisering en moderne web technologieën.',
       hero: {
         title: 'Over mij',
-        subtitle: 'Tech consultant met passie voor digitale transformatie',
+        subtitle: 'Full-stack software engineer met passie voor maatwerk oplossingen',
       },
       intro: {
-        title: 'Ik ben Aimane Elbarjaj, Tech Consultant bij KPMG Nederland',
-        description: 'Als Tech Consultant bij KPMG Nederland help ik organisaties met hun digitale enablement. Met een BSc in Information & Communication Technology en ruime ervaring in full-stack development lever ik innovatieve oplossingen die bedrijven helpen bij hun digitale transformatie.',
+        title: 'Ik ben Aimane Elbarjaj, Full-Stack Software Engineer',
+        description: 'Als zelfstandig software engineer help ik bedrijven met custom software oplossingen die écht werken. Met een BSc in Information & Communication Technology en ruime ervaring in full-stack development lever ik maatwerk software die precies doet wat je nodig hebt—van WordPress plugins tot complete webapplicaties.',
       },
       experience: {
         title: 'Mijn werkervaring',
         job1: {
-          title: 'Technology Consultant @ Digital Enablement',
-          company: 'KPMG Nederland',
+          title: 'Freelance Software Engineer',
+          company: 'Bar Technology',
           period: '2024 - Heden',
-          description: 'Technology consulting en digitale enablement projecten voor diverse klanten.',
+          description: 'Custom software ontwikkeling voor diverse klanten: WordPress plugins, API integraties, automatisering en full-stack webapplicaties.',
         },
         job2: {
           title: 'Software Developer',
@@ -287,7 +287,7 @@ export const translations = {
         },
         point3: {
           title: 'Praktische ervaring',
-          description: 'Van full-stack development tot consultancy bij toonaangevende organisaties zoals KPMG.',
+          description: 'Jarenlange ervaring in full-stack development en het realiseren van custom software oplossingen voor diverse branches.',
         },
         point4: {
           title: 'Continue ontwikkeling',
@@ -365,13 +365,13 @@ export const translations = {
       },
       service3: {
         title: 'Full-stack webapplicaties',
-        description: 'Schaalbare applicaties gebouwd met moderne frameworks en best practices. Van concept tot deployment.',
+        description: 'Kleinschalige, schaalbare applicaties gebouwd met moderne frameworks en best practices. Van concept tot deployment.',
         features: [
           'React, Next.js, Node.js',
           'RESTful & GraphQL APIs',
           'Database design & optimalisatie',
           'Cloud deployment (AWS, Vercel)',
-          'Onderhoud & support',
+          'Eenmalige projecten of vaste scope',
         ],
         price: 'Prijs op aanvraag',
       },
@@ -636,23 +636,23 @@ export const translations = {
       rights: 'All rights reserved.',
     },
     about: {
-      metaTitle: 'About | Aimane Elbarjaj - Tech Consultant',
-      metaDescription: 'Tech Consultant at KPMG Netherlands specializing in digital transformation, full-stack development, and modern technologies like Flutter, Docker, and Azure.',
+      metaTitle: 'About | Full-Stack Software Engineer | Bar Technology',
+      metaDescription: 'Full-stack software engineer specializing in custom WordPress solutions, API integrations, automation, and modern web technologies.',
       hero: {
         title: 'About Me',
-        subtitle: 'Tech Consultant passionate about digital transformation',
+        subtitle: 'Full-stack software engineer passionate about custom solutions',
       },
       intro: {
-        title: 'I\'m Aimane Elbarjaj, Tech Consultant at KPMG Netherlands',
-        description: 'As a Tech Consultant at KPMG Netherlands, I help organizations with their digital enablement. With a BSc in Information & Communication Technology and extensive experience in full-stack development, I deliver innovative solutions that help businesses with their digital transformation.',
+        title: 'I\'m Aimane Elbarjaj, Full-Stack Software Engineer',
+        description: 'As an independent software engineer, I help businesses with custom software solutions that actually work. With a BSc in Information & Communication Technology and extensive experience in full-stack development, I deliver tailored software that does exactly what you need—from WordPress plugins to complete web applications.',
       },
       experience: {
         title: 'My Work Experience',
         job1: {
-          title: 'Technology Consultant @ Digital Enablement',
-          company: 'KPMG Netherlands',
+          title: 'Freelance Software Engineer',
+          company: 'Bar Technology',
           period: '2024 - Present',
-          description: 'Technology consulting and digital enablement projects for various clients.',
+          description: 'Custom software development for various clients: WordPress plugins, API integrations, automation, and full-stack web applications.',
         },
         job2: {
           title: 'Software Developer',
@@ -721,7 +721,7 @@ export const translations = {
         },
         point3: {
           title: 'Practical Experience',
-          description: 'From full-stack development to consultancy at leading organizations like KPMG.',
+          description: 'Years of experience in full-stack development and delivering custom software solutions across various industries.',
         },
         point4: {
           title: 'Continuous Development',
@@ -799,13 +799,13 @@ export const translations = {
       },
       service3: {
         title: 'Full-Stack Web Applications',
-        description: 'Scalable applications built with modern frameworks and best practices. From concept to deployment.',
+        description: 'Small-scale, scalable applications built with modern frameworks and best practices. From concept to deployment.',
         features: [
           'React, Next.js, Node.js',
           'RESTful & GraphQL APIs',
           'Database design & optimization',
           'Cloud deployment (AWS, Vercel)',
-          'Maintenance & support',
+          'One-time projects or fixed scope',
         ],
         price: 'Price on request',
       },
