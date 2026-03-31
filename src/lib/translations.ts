@@ -202,23 +202,23 @@ export const translations = {
       rights: 'Alle rechten voorbehouden.',
     },
     about: {
-      metaTitle: 'Over mij | Full-Stack Software Engineer | Bar Technology',
-      metaDescription: 'Full-stack software engineer gespecialiseerd in custom WordPress oplossingen, API integraties, automatisering en moderne web technologieën.',
+      metaTitle: 'Over mij | Tech Consultant | Bar Technology',
+      metaDescription: 'Tech Consultant gespecialiseerd in digitale transformatie, full-stack development en moderne technologieën zoals Flutter, Docker en Azure.',
       hero: {
         title: 'Over mij',
-        subtitle: 'Full-stack software engineer met passie voor maatwerk oplossingen',
+        subtitle: 'Tech consultant met passie voor digitale transformatie',
       },
       intro: {
-        title: 'Ik ben Aimane Elbarjaj, Full-Stack Software Engineer',
-        description: 'Als software engineer help ik bedrijven met custom software oplossingen die écht werken. Met een BSc in Information & Communication Technology en ruime ervaring in full-stack development lever ik maatwerk software die precies doet wat je nodig hebt. Van WordPress plugins tot complete webapplicaties.',
+        title: 'Ik ben Aimane Elbarjaj, Tech Consultant',
+        description: 'Als Tech Consultant help ik organisaties met hun digitale transformatie. Met een BSc in Information & Communication Technology en ruime ervaring in full-stack development lever ik innovatieve oplossingen die bedrijven helpen met hun technologie uitdagingen.',
       },
       experience: {
         title: 'Mijn werkervaring',
         job1: {
-          title: 'Freelance Software Engineer',
-          company: 'Bar Technology',
+          title: 'Technology Consultant',
+          company: 'Consultancy',
           period: '2024 - Heden',
-          description: 'Custom software ontwikkeling voor diverse klanten: WordPress plugins, API integraties, automatisering en full-stack webapplicaties.',
+          description: 'Technology consulting en digitale transformatie projecten voor diverse klanten.',
         },
         job2: {
           title: 'Software Developer',
@@ -287,7 +287,7 @@ export const translations = {
         },
         point3: {
           title: 'Praktische ervaring',
-          description: 'Jarenlange ervaring in full-stack development en het realiseren van custom software oplossingen voor diverse branches.',
+          description: 'Van full-stack development tot consultancy bij toonaangevende organisaties.',
         },
         point4: {
           title: 'Continue ontwikkeling',
@@ -636,23 +636,23 @@ export const translations = {
       rights: 'All rights reserved.',
     },
     about: {
-      metaTitle: 'About | Full-Stack Software Engineer | Bar Technology',
-      metaDescription: 'Full-stack software engineer specializing in custom WordPress solutions, API integrations, automation, and modern web technologies.',
+      metaTitle: 'About | Tech Consultant | Bar Technology',
+      metaDescription: 'Tech Consultant specializing in digital transformation, full-stack development, and modern technologies like Flutter, Docker, and Azure.',
       hero: {
         title: 'About Me',
-        subtitle: 'Full-stack software engineer passionate about custom solutions',
+        subtitle: 'Tech Consultant passionate about digital transformation',
       },
       intro: {
-        title: 'I\'m Aimane Elbarjaj, Full-Stack Software Engineer',
-        description: 'As a software engineer, I help businesses with custom software solutions that actually work. With a BSc in Information & Communication Technology and extensive experience in full-stack development, I deliver tailored software that does exactly what you need. From WordPress plugins to complete web applications.',
+        title: 'I\'m Aimane Elbarjaj, Tech Consultant',
+        description: 'As a Tech Consultant, I help organizations with their digital transformation. With a BSc in Information & Communication Technology and extensive experience in full-stack development, I deliver innovative solutions that help businesses with their technology challenges.',
       },
       experience: {
         title: 'My Work Experience',
         job1: {
-          title: 'Freelance Software Engineer',
-          company: 'Bar Technology',
+          title: 'Technology Consultant',
+          company: 'Consultancy',
           period: '2024 - Present',
-          description: 'Custom software development for various clients: WordPress plugins, API integrations, automation, and full-stack web applications.',
+          description: 'Technology consulting and digital transformation projects for various clients.',
         },
         job2: {
           title: 'Software Developer',
@@ -721,7 +721,7 @@ export const translations = {
         },
         point3: {
           title: 'Practical Experience',
-          description: 'Years of experience in full-stack development and delivering custom software solutions across various industries.',
+          description: 'From full-stack development to consultancy at leading organizations.',
         },
         point4: {
           title: 'Continuous Development',
