@@ -365,7 +365,7 @@ export const translations = {
       },
       service3: {
         title: 'Full-stack webapplicaties',
-        description: 'Kleinschalige, schaalbare applicaties gebouwd met moderne frameworks en best practices. Van concept tot deployment.',
+        description: 'Schaalbare applicaties gebouwd met moderne frameworks en best practices. Van concept tot deployment.',
         features: [
           'React, Next.js, Node.js',
           'RESTful & GraphQL APIs',
@@ -799,7 +799,7 @@ export const translations = {
       },
       service3: {
         title: 'Full-Stack Web Applications',
-        description: 'Small-scale, scalable applications built with modern frameworks and best practices. From concept to deployment.',
+        description: 'Scalable applications built with modern frameworks and best practices. From concept to deployment.',
         features: [
           'React, Next.js, Node.js',
           'RESTful & GraphQL APIs',
